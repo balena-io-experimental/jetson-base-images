@@ -7,6 +7,7 @@ Base images base: balenalib/jetson-nano-ubuntu:bionic
 CUDA version: 10.0.326
 
 Image size: 2.53 GB
+
 Compressed size on Docker Hub: 1.34 GB
 
 ### 2. resinplayground/jetson-nano-cuda-opencv
