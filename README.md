@@ -13,6 +13,8 @@ Compressed size on Docker Hub: 1.34 GB
 ### 2. resinplayground/jetson-nano-cuda-opencv
 CUDA version: 10.0.326
 
+Image size: 6.15 GB
+
 OpenCV version: 4.3.0
 
 Excerpt from OpenCV config:
