@@ -88,17 +88,88 @@ Excerpt from OpenCV config:
 
 
 
-### 3. resinplayground/jetson-nano-cuda-cudnn-opencv
+### 3. resinplayground/jetson-nano-cuda-cudnn-opencv (v0.2:slim)
 CUDA version: 10.0.326
 
 cuDNN version: 7.6.3
 
-OpenCV version 3.4.3
+OpenCV version 4.1.1
 
-Image size: 4.71 GB
+Image size: 4.59 GB
 
 Compressed size on Docker Hub: 2.5GB
 
-Note: Created specifically to run OpenDataCam (https://github.com/balena-io-playground/opendatacam)
+Excerpt from OpenCV config:
+
+```
+  OpenCV modules:
+       To be built:                 aruco bgsegm bioinspired calib3d ccalib core cudaarithm cudabgsegm cudacodec cudafeatures2d cudafilters cudaimgproc cudalegacy cudaobjdetect cudaoptflow cudastereo cudawarping cudev datasets dnn dnn_objdetect dpm face features2d flann freetype fuzzy gapi hfs highgui img_hash imgcodecs imgproc line_descriptor ml objdetect optflow phase_unwrapping photo plot quality reg rgbd saliency shape stereo stitching structured_light superres surface_matching text tracking ts video videoio videostab xfeatures2d ximgproc xobjdetect xphoto
+     Disabled:                    world
+     Disabled by dependency:      -
+     Unavailable:                 cnn_3dobj cvv hdf java js matlab ovis python2 python3 sfm viz
+     Applications:                tests perf_tests apps
+     Documentation:               NO
+     Non-free algorithms:         NO
+ 
+   GUI: 
+     GTK+:                        YES (ver 2.24.32)
+       GThread :                  YES (ver 2.56.4)
+       GtkGlExt:                  NO
+     VTK support:                 NO
+ 
+   Media I/O: 
+     ZLib:                        /usr/lib/aarch64-linux-gnu/libz.so (ver 1.2.11)
+     JPEG:                        /usr/lib/aarch64-linux-gnu/libjpeg.so (ver 80)
+     WEBP:                        /usr/lib/aarch64-linux-gnu/libwebp.so (ver encoder: 0x020e)
+     PNG:                         /usr/lib/aarch64-linux-gnu/libpng.so (ver 1.6.34)
+     TIFF:                        /usr/lib/aarch64-linux-gnu/libtiff.so (ver 42 / 4.0.9)
+-     JPEG 2000:                   build (ver 1.900.1)
+     OpenEXR:                     build (ver 2.3.0)
+     HDR:                         YES
+     SUNRASTER:                   YES
+     PXM:                         YES
+     PFM:                         YES
+   Video I/O:
+     DC1394:                      NO
+     FFMPEG:                      YES
+       avcodec:                   YES (57.107.100)
+       avformat:                  YES (57.83.100)
+       avutil:                    YES (55.78.100)
+       swscale:                   YES (4.8.100)
+       avresample:                NO
+     GStreamer:                   YES (1.14.5)
+     v4l/v4l2:                    YES (linux/videodev2.h)
+ 
+   Parallel framework:            TBB (ver 2017.0 interface 9107)
+ 
+   Trace:                         YES (with Intel ITT)
+ 
+   Other third-party libraries:
+     Lapack:                      NO
+     Eigen:                       NO
+     Custom HAL:                  YES (carotene (ver 0.0.1))
+     Protobuf:                    build (3.5.1)
+ 
+   NVIDIA CUDA:                   YES (ver 10.0, CUFFT CUBLAS)
+     NVIDIA GPU arch:             53
+     NVIDIA PTX archs:
+ 
+   cuDNN:                         YES (ver 7.6.3)
+ 
+   OpenCL:                        YES (no extra features)
+     Include path:                /usr/src/app/opencv-4.1.1/3rdparty/include/opencl/1.2
+     Link libraries:              Dynamic load
+ 
+   Python (for build):            /usr/bin/python2.7
+ 
+   Java:                          
+     ant:                         NO
+     JNI:                         NO
+     Java wrappers:               NO
+     Java tests:                  NO
+ 
+   Install to:                    /usr/local
+- -----------------------------------------------------------------
+```
 
 
