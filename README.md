@@ -1,5 +1,5 @@
 # jetson-base-images
-Dockerfiles for creating new base images. Require files from the SDK Manager. The images are available on the [resinplayground Docker Hub](https://hub.docker.com/u/resinplayground).
+Dockerfiles for creating new base images. The images are available on the [resinplayground Docker Hub](https://hub.docker.com/u/resinplayground) and do not require any files from the Nvidia SDK Manager. If building using these Dockerfiles, you will need the SDK Manager files.
 
 Base images base: balenalib/jetson-nano-ubuntu:bionic
 
