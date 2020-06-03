@@ -100,6 +100,8 @@ CUDA version: 10.0.326
 
 Image size: 5.13 GB
 
+cuDNN version: 7.6.3
+
 OpenCV version: 4.3.0
 
 Excerpt from OpenCV config:
