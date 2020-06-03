@@ -95,20 +95,20 @@ Excerpt from OpenCV config:
 ```
 
 
-### 3. resinplayground/jetson-nano-cuda-opencv
+### 3. resinplayground/jetson-nano-cuda-opencv (v0.2:full)
 CUDA version: 10.0.326
 
-Image size: 6.15 GB
+Image size: 5.13 GB
 
 OpenCV version: 4.3.0
 
 Excerpt from OpenCV config:
 ```
-  OpenCV modules:
+ OpenCV modules:
     To be built:                 alphamat aruco bgsegm bioinspired calib3d ccalib core cudaarithm cudabgsegm cudacodec cudafeatures2d cudafilters cudaimgproc cudalegacy cudaobjdetect cudaoptflow cudastereo cudawarping cudev datasets dnn dnn_objdetect dnn_superres dpm face features2d flann freetype fuzzy gapi hfs highgui img_hash imgcodecs imgproc intensity_transform line_descriptor ml objdetect optflow phase_unwrapping photo plot python3 quality rapid reg rgbd saliency shape stereo stitching structured_light superres surface_matching text tracking ts video videoio videostab xfeatures2d ximgproc xobjdetect xphoto
-    Disabled:                    python2 world
+    Disabled:                    world
     Disabled by dependency:      -
-    Unavailable:                 cnn_3dobj cvv hdf java js matlab ovis sfm viz
+    Unavailable:                 cnn_3dobj cvv hdf java js matlab ovis python2 sfm viz
     Applications:                tests perf_tests apps
     Documentation:               NO
     Non-free algorithms:         NO
@@ -157,7 +157,7 @@ Excerpt from OpenCV config:
     NVIDIA GPU arch:             53
     NVIDIA PTX archs:
 
-  cuDNN:                         NO
+  cuDNN:                         YES (ver 7.6.3)
 
   OpenCL:                        YES (no extra features)
     Include path:                /usr/src/app/opencv-4.3.0/3rdparty/include/opencl/1.2
@@ -168,6 +168,17 @@ Excerpt from OpenCV config:
     Libraries:                   /usr/lib/python3.6/config-3.6m-aarch64-linux-gnu/libpython3.6.so (ver 3.6.9)
     numpy:                       /usr/local/lib/python3.6/site-packages/numpy/core/include (ver 1.18.4)
     install path:                lib/python3.6/site-packages/cv2/python-3.6
+
+  Python (for build):            /usr/local/bin/python3.6
+
+  Java:                          
+    ant:                         NO
+    JNI:                         NO
+    Java wrappers:               NO
+    Java tests:                  NO
+
+  Install to:                    /usr/local
+-----------------------------------------------------------------
 
 ```
 
